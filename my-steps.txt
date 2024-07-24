@@ -169,7 +169,11 @@ $ git remote add origin https://github.com/dav1dduong/unit1-git-practice.git
 
 
 ### Step 6
-
+$ git status
+$ git add my-steps.txt
+$ git add menu.txt
+$ git commit -m "New Menu and Updated Steps"
+$ git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
