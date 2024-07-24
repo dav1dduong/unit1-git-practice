@@ -45,65 +45,127 @@ $ cd /c/
 
 
 ### Step 2H
+$ pwd
+/c
 
 
 ### Step 2I
+$ ls
+'$Recycle.Bin'/                                  end
+'$SysReset'/                                     eula.1028.txt
+'$WinREAgent'/                                   eula.1031.txt
+ Apps/                                           eula.1033.txt
+ Dell/                                           eula.1036.txt
+'Documents and Settings'@                        eula.1040.txt
+ Drivers/                                        eula.1041.txt
+ DumpStack.log                                   eula.1042.txt
+ DumpStack.log.tmp                               eula.2052.txt
+ Games/                                          eula.3082.txt
+ Intel/                                          globdata.ini
+ MATS/                                           hiberfil.sys
+ MSOCache/                                       install.exe*
+ NvContainerRecoveryNvContainerLocalSystem.reg   install.ini
+ OneDriveTemp/                                   install.res.1028.dll*
+ PerfLogs/                                       install.res.1031.dll*
+'Program Files'/                                 install.res.1033.dll*
+'Program Files (x86)'/                           install.res.1036.dll*
+ ProgramData/                                    install.res.1040.dll*
+ Recovery/                                       install.res.1041.dll*
+'Riot Games'/                                    install.res.1042.dll*
+'System Volume Information'/                     install.res.2052.dll*
+ Users/                                          install.res.3082.dll*
+ VC_RED.MSI                                      pagefile.sys
+ VC_RED.cab                                      swapfile.sys
+ Windows/                                        temp/
+ backup/                                         vcredist.bmp
+ bootTel.dat
 
 
 ### Step 2J
+$ cd Users
 
 
 ### Step 2K
+$ cd David
+$ ls
+$ cd desktop
+$ cd unit1-git-practice
 
 
 
 ### Step 3A
+$ mkdir desserts
+$ mkdir meats
+$ mkdir veggies
 
 
 ### Step 3B
+$ mv desserts sweets
 
 
 ### Step 3C
+$ mkdir proteins
 
 
 ### Step 3D
+$ mv meats proteins
 
 
 ### Step 3E
+$ cd veggies
+$ touch pea.txt
+$ touch carrot.txt
 
 
 ### Step 3F
+$ cd /c/Users/David/desktop/unit1-git-practice
+$ touch cookie.txt
 
 
 ### Step 3G
+$ mv cookie.txt donut.txt
 
 
 ### Step 3H
+$ cd /c/Users/David/desktop/unit1-git-practice
+$ touch thing.txt
 
 
 ### Step 3I
-
+$ cp thing.txt tofu.txt
 
 ### Step 3J
-
+$ mv tofu.txt proteins
 
 ### Step 3K
+$ cp thing.txt crab.txt
+$ mv crab.txt proteins
+$ cd proteins
+$ mv crab.txt meats
+$ cd meats
 
 
 ### Step 3L
-
+$ cd /c/Users/David/desktop/unit1-git-practice
+$ rm -r thing.txt
 
 ### Step 3M
-
+$ cp -r veggies plants
 
 ### Step 3N
-
-
+$ mkdir drinks
+$ rm -r drinks
 
 ### Step 4
+$ git init
 
-
+$ git add .
+$ git status
 ### Step 5
+$ git commit -m "First commit"
+$ git remote add origin https://github.com/dav1dduong/unit1-git-practice.git
+ $ git push -u origin master
+
 
 
 ### Step 6
